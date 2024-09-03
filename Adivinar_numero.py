@@ -9,7 +9,7 @@ print(f"Hola {nombre_usuario},pense un numero entre 1 y 100\n Tenes 8 intentos p
 while intentos < 8:
     numero_pensado = int(input("¿Que numero pensas que es?: "))
     intentos += 1
-    if (numero_pensado not in range(1,101):
+    if (numero_pensado not in range(1,101)):
         print("Tu numero debe ser mayor a 1 y menor a 100")
     elif numero_pensado < numero_secreto:
         print("Mi numero es mas grande")
